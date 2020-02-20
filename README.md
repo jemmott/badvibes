@@ -1,12 +1,12 @@
 # Bad Vibes
 
-During the excellent [Cultured Data Symposium](https://cultureddata.net/) 2020, [Tobin Chodos](http://www.tobinchodos.com/) said something like "Spotify's recommenders are so random that I think you could throw a negative sign in front and end up with similar quality."
+During the excellent [Cultured Data Symposium](https://cultureddata.net/) 2020, [Tobin Chodos](http://www.tobinchodos.com/) said something like "since there is no mathematically coherent measure of a "success" in music recommendation, since human love of music is so strange and capricious, you could probably reverse the logic of Spotify's recommender engine and get similarly satisfying results, perhaps more satisfying"
 
 ### Challenge Accepted!
 
 Make a bad Spotify recommender. Like, the worst. Bad vibes anti-recommendations.
 
-This is currently very much a proof of concept.  It grabs your top 50 songs (long-term), and then does a "farthest neighbor recommendation" based on the audio features Spotify provides.  I restricted myself to the [2019 global most streamed tracks](https://www.kaggle.com/prasertk/spotify-global-2019-moststreamed-tracks), so I couldn't pick total shit.
+This is currently very much a proof of concept.  It grabs your top 50 songs (long-term), and then does a "farthest neighbor recommendation" based on the audio features Spotify provides.  I restricted myself to the [2019 global most streamed tracks](https://www.kaggle.com/prasertk/spotify-global-2019-moststreamed-tracks), so I couldn't pick total shit.  In other words, it is a recommender system that tries to find music that is popular, but you won't like.
 
 Though, to be honest, that *NYSYNC Christmas song is pretty rough.
 
