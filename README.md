@@ -22,3 +22,9 @@ You can play with it at http://badplaylist.com
 
 * [Spotipy: python SDK](https://spotipy.readthedocs.io/en/2.7.0/)
 * [Authorization Scopes](https://developer.spotify.com/documentation/general/guides/scopes/)
+
+## April 2020 Update
+
+"The point is this.  Even if there were some objective criteria that make one artwork better than another, as long as context plays a role in our aesthetic appreciation of art, it's not possible to create a tangible measure for aesthetic quality that works for all places in all times.  Whatever statistical techniques, or artificial intelligence tricks, or machine-learning algorithms you deploy, trying to use numbers to latch on to the essence of artistic excellence is like clutching at smoke with your hands."
+
+- Hannah Fry, "[Hello World](http://www.hannahfry.co.uk/helloworld)"
