@@ -23,8 +23,8 @@ def getHtml(baseUrl, code):
     (this takes a minute)<br><br>
     </body>""".format(farthestNeighborUrl)
     
-    results = {"code":code,
-               "baseUrl":baseUrl}
-    utils.log(str(results), "callback")
+    #results = {"code":code,
+    #           "baseUrl":baseUrl}
+    #utils.log(str(results), "callback")
     
     return websiteHtml

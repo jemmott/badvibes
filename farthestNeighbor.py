@@ -20,7 +20,7 @@ def getHtml(baseUrl, code):
     clientId = os.environ.get('SPOTIPY_CLIENT_ID')
     clientSecret = os.environ.get('SPOTIPY_CLIENT_SECRET')
     redirectUri = baseUrl + "callback/"
-    scope = " ".join(['playlist-modify-public',"user-top-read"])
+    scope = " ".join(['playlist-modify-public',"user-top-read","user-read-recently-played","playlist-read-private"])
     
     sp_oauth = spotipy.oauth2.SpotifyOAuth(clientId, clientSecret, redirectUri, scope=scope)
     
@@ -68,6 +68,8 @@ def getHtml(baseUrl, code):
     
     results = {"username":username,
                "code":code,
+               "baseUrl":baseUrl,
+               "tokenInfo":token_info,
                "playlistUrl":playlistUrl}
     utils.log(str(results), "#farthest-neighbor")
     
