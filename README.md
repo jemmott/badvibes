@@ -16,6 +16,7 @@ You can play with it at http://badplaylist.com
 
 * Non-collaborative filtering.  (Adversarial Filtering?)
 * Use [Spotify's recommendation API]((https://developer.spotify.com/documentation/web-api/reference/browse/get-recommendations/)) with a bad seed?
+* Alphabetical by name of band.
 
 
 ### Links
